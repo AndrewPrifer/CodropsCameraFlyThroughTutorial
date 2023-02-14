@@ -43,7 +43,7 @@ Follow Theatre.js: [Twitter](https://twitter.com/theatre_js), [GitHub](https://g
 
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
 
-## Attributions
+## Attributions
 
 ```text
 File: environment.glb
