@@ -7,9 +7,9 @@ https://user-images.githubusercontent.com/2991360/218591424-2bc3f476-6288-4999-9
 
 
 
-[Article on Codrops](https://tympanus.net/codrops/?p=)
+[Article on Codrops](https://tympanus.net/codrops/?p=70449)
 
-[Demo](http://tympanus.net/Development/.../)
+[Demo](http://tympanus.net/Development/CameraFlyThrough/)
 
 ## Installation
 

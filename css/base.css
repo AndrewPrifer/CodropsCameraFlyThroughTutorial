@@ -5,11 +5,11 @@
 }
 
 :root {
-  font-size: 16px;
-  --color-text: #111;
-  --color-bg: #fff;
-  --color-link: #aaa;
-  --color-link-hover: #000;
+  font-size: 14px;
+  --color-text: #fff;
+  --color-bg: #84a4f4;
+  --color-link: #fff;
+  --color-link-hover: #fff;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
 }
 
 /* Page Loader */
@@ -105,22 +106,26 @@ a:focus-visible {
 }
 
 .frame {
+  position: fixed;
+  top: 0rem;
+  left: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
   color: var(--color-title);
-  padding: 1.5rem;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: "title prev sponsor";
-  justify-content: start;
-  margin-bottom: 3rem;
-  grid-gap: 2rem;
+  padding: 1rem 2rem;
+  z-index: 10;
+  background: rgba(255,255,255,0.24);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 4px 7px rgba(0,0,0,0.05);
 }
 
 .frame a:not(.frame__title-back) {
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  display: inline-block;
 }
 
 .frame a:not(.frame__title-back)::before {
@@ -147,14 +152,13 @@ a:focus-visible {
 .frame__title-main {
   font-size: 1rem;
   margin: 0;
-  font-weight: normal;
+  font-weight: inherit;
 }
 
 .frame__title-back {
   position: relative;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 0.15rem;
 }
 
 .frame__title-back span {
@@ -169,19 +173,13 @@ a:focus-visible {
   grid-area: prev;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: calc(100vh - 13rem);
-  position: relative;
-  justify-content: flex-start;
-  align-items: center;
-}
-
 @media screen and (min-width: 53em) {
-  .content {
-    height: 100vh;
-    justify-content: center;
+  .frame {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "title prev sponsor";
+    justify-content: start;
+    grid-gap: 5vw;
   }
 }
