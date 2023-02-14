@@ -43,16 +43,6 @@ Follow Theatre.js: [Twitter](https://twitter.com/theatre_js), [GitHub](https://g
 
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
 
-## Attributions
-
-```text
-File: environment.glb
-Author: BigPo (https://sketchfab.com/BigPo)
-License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-Source: https://sketchfab.com/3d-models/low-poly-environment-2e18c1baa9164093ad2e99e0a904363a
-Title: Low poly environment
-```
-
 ## License
 
 [MIT](LICENSE)
